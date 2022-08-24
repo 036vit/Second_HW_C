@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Clear ();
+Console.Write ("Введите трёхзначное ");
+int N = int.Parse (Console.ReadLine());
+int N2 = N%100;
+Console.WriteLine(N2/10);
